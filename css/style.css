@@ -649,6 +649,10 @@ img {
   min-width: 165px;
   cursor: pointer;
   border: none;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
 
 .footer-form {
