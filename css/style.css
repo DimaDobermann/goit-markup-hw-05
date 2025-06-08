@@ -589,14 +589,20 @@ img {
   height: 40px;
   background-color: #ffffff;
   margin-bottom: 8px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  background-color: transparent;
+  padding-left: 38px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-color: #4d5ae5;
 }
 
 .modal-input-text {
-    letter-spacing: 0.04em;
+  letter-spacing: 0.04em;
   color: #8e8f99;
   display: block;
-  margin-bottom: 8px;
-  line-height: 1.17; 
+  margin-bottom: 4px;
+  line-height: 1.17;
 }
 
 .modal-form-field {
@@ -605,5 +611,13 @@ img {
   line-height: 1.17;
 }
 .modal-input-icon {
-  position: relative; 
+  position: relative;
+}
+
+.modal-input-svg {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
