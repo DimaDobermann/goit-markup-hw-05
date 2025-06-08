@@ -630,7 +630,9 @@ img {
 
 
 
-
+.form-content-input {
+  margin-left: auto;
+}
 
 
 
@@ -641,6 +643,14 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+
+}
+
+.form-button {
+  border-radius: 4px;
+padding: 8px 24px;
+width: 165px;
+height: 40px;
 
 }
 
