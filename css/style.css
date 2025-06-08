@@ -629,6 +629,29 @@ img {
   border-radius: 4px;
 }
 
+.modal-textarea {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+border-radius: 4px;
+width: 360px;
+height: 120px;
+resize: none;
+}
+
+.modal-input-text {
+  font-weight: 400;
+font-size: 12px;
+line-height: 1.16667;
+letter-spacing: 0.04em;
+color: #8e8f99;
+padding-top: 8px;
+padding-bottom: 4px;
+
+}
+
+
+
+
+
 /*______FOOTER_____*/
 
 .form-content-input {
