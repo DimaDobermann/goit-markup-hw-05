@@ -654,3 +654,15 @@ height: 40px;
 
 }
 
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
+.form-input-email {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+
+}
