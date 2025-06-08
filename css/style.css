@@ -622,17 +622,6 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .form-content-input {
   margin-left: auto;
 }
@@ -657,6 +646,9 @@ img {
   flex-direction: row;
   gap: 16px;
   background-color: #4d5ae5;
+  min-width: 165px;
+  cursor: pointer;
+  border: none;
 }
 
 .footer-form {
@@ -669,4 +661,15 @@ img {
   border-radius: 4px;
   width: 264px;
   height: 40px;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+}
+
+.button-icon {
+  margin-left: 16px;
 }
