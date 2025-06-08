@@ -497,6 +497,8 @@ img {
   background-color: #31d0aa;
 }
 
+/*_______MODAL_____*/
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -583,14 +585,12 @@ img {
 }
 
 .modal-input {
-  width: 100%;
   border-radius: 4px;
   width: 360px;
   height: 40px;
   background-color: #ffffff;
   margin-bottom: 8px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  background-color: transparent;
+
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -621,6 +621,15 @@ img {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.modal-item {
+  width: 100%;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+/*______FOOTER_____*/
 
 .form-content-input {
   margin-left: auto;
