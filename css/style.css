@@ -576,12 +576,10 @@ img {
   fill: #ffffff;
 }
 
-
 .modal-close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 24px;
   height: 24px;
-
 }
 
 .modal-input {
@@ -597,7 +595,6 @@ img {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-color: #4d5ae5;
-  
 }
 
 .modal-input-text {
@@ -615,8 +612,6 @@ img {
 }
 .modal-input-icon {
   position: relative;
-  
-  
 }
 
 .modal-input-svg {
@@ -625,16 +620,11 @@ img {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
-
-
 
 .form-content-input {
   margin-left: auto;
 }
-
-
 
 .form-content-text {
   font-weight: 500;
@@ -643,15 +633,19 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
-
 }
 
-.form-button {
+.form-button-icon {
   border-radius: 4px;
-padding: 8px 24px;
-width: 165px;
-height: 40px;
-
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
+  background-color: #4d5ae5;
 }
 
 .footer-form {
@@ -664,5 +658,4 @@ height: 40px;
   border-radius: 4px;
   width: 264px;
   height: 40px;
-
 }
