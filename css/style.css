@@ -672,7 +672,6 @@ color: #fff;
     transform: translateY(-50%);
     height: 15px;
     width: 1px;
-    
     pointer-events: none;
     border: 1.25px solid #2e2f42;
     
