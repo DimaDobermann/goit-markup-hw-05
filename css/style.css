@@ -40,6 +40,8 @@ img {
   display: block;
 }
 
+/*---------HEADER-------*/
+
 .header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
@@ -138,6 +140,10 @@ img {
 .header-address-item {
 }
 
+/*---------HEADER-------*/
+
+/*--------section1-------*/
+
 .hero {
   background-color: #2e2f42;
   padding: 188px 0;
@@ -191,6 +197,10 @@ img {
   background-color: #404bbf;
 }
 
+/*---------section1--------*/
+
+/*--------section2------*/
+
 .features {
   padding: 120px 0;
 }
@@ -243,6 +253,10 @@ img {
   justify-content: center;
   margin-bottom: 8px;
 }
+
+/*--------section2------*/
+
+/*--------section3------*/
 
 .our-team {
   background-color: #f4f4fd;
@@ -335,6 +349,10 @@ img {
   background-color: #ffffff;
 }
 
+/*--------section3------*/
+
+/*--------section4------*/
+
 .project-card {
   background-color: #fff;
   padding: 120px 0;
@@ -377,11 +395,10 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   overflow: hidden;
   font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em; 
-
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .cover {
@@ -412,6 +429,10 @@ letter-spacing: 0.02em;
   color: #434455;
   text-align: left;
 }
+
+/*--------section4------*/
+
+/*-------FOOTER--------*/
 
 .footer {
   background: #2e2f42;
@@ -503,8 +524,6 @@ letter-spacing: 0.02em;
   background-color: #31d0aa;
 }
 
-/*______FOOTER_____*/
-
 .form-content-input {
   margin-left: auto;
 }
@@ -554,25 +573,23 @@ letter-spacing: 0.02em;
   padding-left: 16px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: #ffffff;
-  
 }
 .form-input-email::placeholder {
-font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: 12px;
-line-height: 2;
-letter-spacing: 0.04em;
-color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
 }
-
 
 .button-icon {
   margin-left: 16px;
 }
 
-/*_______MODAL_____*/
+/*-------FOOTER--------*/
 
-
+/*________MODAL_____*/
 
 .modal-backdrop {
   width: 100%;
@@ -662,27 +679,21 @@ color: #fff;
   width: 360px;
   margin-bottom: 8px;
   position: relative;
-
 }
 .item-wrapper-risk::before {
-    content: "";
-    position: absolute;
-    left: 38px;
-    top: 50%;
-    transform: translateY(-50%);
-    height: 15px;
-    width: 1px;
-    pointer-events: none;
-    border: 1.25px solid #2e2f42;
-    
-
-
+  content: "";
+  position: absolute;
+  left: 38px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 15px;
+  width: 1px;
+  pointer-events: none;
+  border: 1.25px solid #2e2f42;
 }
 
-
 .form-icon {
-fill: #2e2f42;
-
+  fill: #2e2f42;
 }
 
 .caption {
@@ -828,3 +839,5 @@ textarea.form-field {
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+/*________MODAL_____*/
