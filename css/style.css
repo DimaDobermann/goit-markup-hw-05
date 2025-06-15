@@ -662,7 +662,24 @@ color: #fff;
   width: 360px;
   margin-bottom: 8px;
   position: relative;
+
 }
+.item-wrapper-risk::before {
+    content: "";
+    position: absolute;
+    left: 38px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 15px;
+    width: 1px;
+    
+    pointer-events: none;
+    border: 1.25px solid #2e2f42;
+    
+
+
+}
+
 
 .form-icon {
 fill: #2e2f42;
